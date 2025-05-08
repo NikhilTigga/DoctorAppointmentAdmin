@@ -45,7 +45,7 @@ const AllAppointments = () => {
                         <p>{item.slotDate},{ item.slotTime}</p>
 
                         <div className="flex items-center gap-2">
-                            <img className="w-8 rounded-full bg-gray-200" src={item.docData.image} alt="" /> <p>{item.docData.name}</p>
+                            <img className="w-8 rounded-full bg-red-200" src={item.docData.image} alt="" /> <p>{item.docData.name}</p>
                         </div>
                         <p>{currency}{item.amount}</p>
                         {
